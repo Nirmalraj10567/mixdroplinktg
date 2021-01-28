@@ -1,4 +1,4 @@
-import config
+import os
 
 class config():
 
