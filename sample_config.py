@@ -1,4 +1,4 @@
-import config
+import os
 class config():
     BOT_TOKEN = os.getenv("c")  # from @botfather
     APP_ID = os.getenv("a")     # from https://my.telegram.org/apps
