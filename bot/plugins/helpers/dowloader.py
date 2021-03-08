@@ -14,6 +14,7 @@ async def fileDownload(client, bot):
     file_path = ''
     now = time.time()
     upload_server = "MixDrop"
+    await mixFileup(file_path,client, bot, now)
     userMsg = await client.edit_message_text(
         chat_id=bot.from_user.id,
         message_id=bot.message.message_id,
