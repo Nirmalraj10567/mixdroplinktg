@@ -13,7 +13,7 @@ from pyrogram.errors import FloodWait
 async def fileDownload(client, bot):
     file_path = ''
     now = time.time()
-    upload_server = bot.data
+    upload_server = "MixDrop"
     userMsg = await client.edit_message_text(
         chat_id=bot.from_user.id,
         message_id=bot.message.message_id,
